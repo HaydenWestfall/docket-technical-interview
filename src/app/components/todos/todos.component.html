@@ -1,0 +1,6 @@
+<div class="todos-wrapper">
+  <div class="todo" *ngFor="let todo of generalService.todos">
+    <h2>{{ todo.title }}</h2>
+    <p>{{ todo.body }}</p>
+  </div>
+</div>

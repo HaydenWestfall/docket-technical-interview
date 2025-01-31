@@ -1,0 +1,21 @@
+<div class="overlay" *ngIf="generalService.showCreate">
+  <div class="editor-wrapper">
+    <div class="header">
+      <span>Create Todo</span>
+      <button (click)="closeModal()">x</button>
+    </div>
+    <form class="form" [formGroup]="formGroup">
+      <input formControlName="title" placeholder="Todo title" />
+      <textarea
+        formControlName="body"
+        rows="8"
+        placeholder="Todo description"
+      ></textarea>
+    </form>
+    <div class="footer">
+      <button class="primary" (click)="createTodo()">
+        <div>Create</div>
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,52 +1,43 @@
 # Docket Technical Interview
 
-A simple React project that displays a navbar and fetches posts from [JSONPlaceholder](https://jsonplaceholder.typicode.com/). This project uses Parcel as the bundler and Jest for testing.
+A simple Posts App that reads posts from json placeholder and allows users to locally craete a new one
 
-## Features
+## 🚀 Features
 
-- React 19 with TypeScript support
-- Parcel for fast and easy bundling
-- Jest and React Testing Library for unit testing
-- Fetches and displays posts from JSONPlaceholder API
+- Create and view posts
+- Fetch posts from json placeholder for sample viewing
+- Responsive and user-friendly UI
 
-## Getting Started
+## 🛠️ Installation
 
-### Prerequisites
-
-Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
-
-### Installation
-
-1. Clone the repository:
+1. **Clone the Repository**
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/HaydenWestfall/docket-technical-interview.git
    cd docket-technical-interview
    ```
-2. Install dependencies
+2. **Install Dependencies**
    ```sh
    npm install
    ```
+3. **Run the Application**
+   ```sh
+   ng serve
+   ```
+   Open `http://localhost:4200/` in your browser.
 
-### Running the Project
+## 📌 Usage
 
-Start the development server:
+1. Open the app in your browser.
+2. Add a new post using the create button.
+3. View existin posts fetched from an api.
 
-```sh
-npm run start
-```
+## 🛠️ Built With
 
-### Building for Production
+- **Angular** - Frontend framework
+- **RxJS** - Reactive programming
+- **TypeScript** - Strongly typed JavaScript
+- **REST API** - Backend communication
 
-To build the project:
+---
 
-```sh
-npm run build
-```
-
-### Running Tests
-
-Run the test suite using Jest:
-
-```sh
-npm test
-```
+Made with ❤️ by Hayden Westfall

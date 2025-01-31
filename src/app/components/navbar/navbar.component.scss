@@ -1,0 +1,28 @@
+.navbar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  height: 3.25rem;
+  background: linear-gradient(
+    90deg,
+    hsla(197, 100%, 63%, 1) 0%,
+    hsla(294, 100%, 55%, 1) 100%
+  );
+
+  .title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+
+    img {
+      height: 2rem;
+    }
+
+    h1 {
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+  }
+}
